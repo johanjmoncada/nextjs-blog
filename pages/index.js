@@ -34,6 +34,11 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <section>
+        <Link href="/versel">
+          <a>Versel page</a>
+        </Link>
+      </section>
     </Layout>
   )
 }
